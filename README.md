@@ -1,2 +1,0 @@
-# bumerangIoT
-lightweight IoT platform
