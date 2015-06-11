@@ -65,7 +65,7 @@
 
 
     <!--BumerangJS Worker-->
-    <script src="/js/bumerang-worker.js"></script>
+    {!! Html::script('js/bumerang-worker.js') !!}
     <script>
     </script>
 

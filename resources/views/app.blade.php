@@ -84,7 +84,8 @@
     $('div.alert').not('.alert-important').delay(4000).slideUp(300);
 
 </script>
-<script src="/js/random.js"></script>
+{!! Html::script('js/random.js') !!}
+
 
 </body>
 </html>

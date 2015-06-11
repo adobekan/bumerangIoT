@@ -147,7 +147,9 @@
     </div>
 
     <!--BumerangJS Worker-->
-    <script src="/js/bumerang-worker.js"></script>
+    {!! Html::script('js/bumerang-worker.js') !!}
+    {!! Html::script('js/random.js') !!}
+
     <script>
     </script>
 
