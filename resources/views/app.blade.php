@@ -25,6 +25,10 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+<?php
+// GET the base url
+echo "<script>var home='".url('')."';</script>"?>
+
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
 

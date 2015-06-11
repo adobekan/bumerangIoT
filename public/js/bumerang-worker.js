@@ -11,7 +11,7 @@ var lastID=0;
         else
         {
             $.ajax({
-                url: '/channels/' + channelIDs[num].id + '/latest',
+                url: home+'/channels/' + channelIDs[num].id + '/latest',
                 success: function (data) {
                     html(JSON.parse(data));
 
