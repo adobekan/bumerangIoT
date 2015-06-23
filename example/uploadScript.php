@@ -26,7 +26,7 @@ $options = array(
         'header'=>"Accept-language: en\r\n" .
             "Content-Type: application/json\r\n" .
             "key:".$deviceKey."\r\n" .
-            "access_key:".$userAccountKey."\r\n"
+            "access-key:".$userAccountKey."\r\n"
     )
 );
 
