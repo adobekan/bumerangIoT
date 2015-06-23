@@ -21,7 +21,7 @@ class APIRequestIsAuthorised {
         if(!$device->private && $request->isMethod('GET')){
             return $next($request);
         }
-        if($device!=null && $device->user->accessKey == $request->header('access_key'))
+        if($device!=null && $device->user->accessKey == $request->header('access-key'))
         {
             if($request->channel_id)
             {
